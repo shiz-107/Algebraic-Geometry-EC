@@ -1,8 +1,12 @@
 # Elliptic-Curve-Operations-Gaussian-Fields
-This repository implements elliptic curve operations over finite fields of Gaussian integers, including point addition, doubling, and generating points of specific orders. It provides a complete framework for working with elliptic curves, making it useful for cryptographic applications and computational number theory.  
+This repository implements elliptic curve operations over finite fields of Gaussian integers, including point addition, doubling, and generating points of specific orders. It provides a complete framework for elliptic curve computations, making it useful for cryptographic applications and computational number theory.  
 
-Elliptic curves play a crucial role in modern cryptography, particularly in public-key cryptosystems and post-quantum cryptography. This repository focuses on performing fundamental operations such as point addition and point doubling while also exploring the generation of points with specific orders over finite fields of Gaussian integers. These operations are essential in constructing secure cryptographic schemes and understanding the mathematical properties of elliptic curves.  
+### Key Features:  
+- Elliptic Curve Arithmetic: Supports point addition, doubling, and generating points of specific orders.  
+- Supersingular Elliptic Curves: Implements a hit-and-trial method to find parameters for which an elliptic curve is supersingular.  
+- Cryptographic Applications: Useful for public-key cryptosystems and post-quantum cryptography.  
+- Finite Fields of Gaussian Integers: Extends elliptic curve operations to complex algebraic structures.  
+- Efficient Computations: Ensures accuracy and reliability in elliptic curve arithmetic.  
+- Research and Development: A valuable resource for cryptographers, researchers, and mathematicians exploring isogenies and algebraic number theory.  
 
-The codebase is structured to support efficient computations, ensuring accuracy and reliability in elliptic curve arithmetic. By implementing these operations over finite fields of Gaussian integers, this repository extends traditional elliptic curve cryptography to more complex algebraic structures, potentially enhancing security and efficiency.  
-
-This project serves as a valuable resource for researchers and mathematicians interested in the deeper aspects of elliptic curve computations. It can be used as a foundation for developing cryptographic protocols, exploring isogenies, and studying advanced topics in algebraic number theory.
+This repository serves as a foundation for cryptographic protocols and advanced studies in elliptic curves.
